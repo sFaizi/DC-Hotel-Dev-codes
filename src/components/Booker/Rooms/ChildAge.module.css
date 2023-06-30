@@ -1,0 +1,25 @@
+.childAge {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.childAge h5 {
+  color: #4d4d4d;
+  font-weight: 500;
+}
+
+.childAge h5 {
+  padding: 5px;
+}
+
+.dropDownAge {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.dropDownAge:focus {
+  outline: none;
+}

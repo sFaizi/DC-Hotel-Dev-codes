@@ -1,0 +1,12 @@
+.header {
+  box-shadow: 1px 1px 10px #b4b4b4;
+  text-align: center;
+  z-index: 50;
+  position: relative;
+  background-color: #fff;
+}
+
+.header h1 {
+  padding: 25px;
+  color: #487ab8;
+}

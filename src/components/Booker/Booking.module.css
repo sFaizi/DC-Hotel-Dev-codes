@@ -1,0 +1,31 @@
+.booking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, min-content);
+  gap: 30px;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: max-content;
+  margin-top: 100px;
+}
+.hotelSearch {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.bookingBtn {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  font-size: 20px;
+  padding: 18px 40px;
+  place-self: end;
+  border-radius: 10px;
+  border: none;
+  background-color: #0d87eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bookingBtn:hover {
+  color: #e9e9e9;
+}

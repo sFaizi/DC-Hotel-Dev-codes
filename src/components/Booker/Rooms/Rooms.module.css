@@ -1,0 +1,67 @@
+.rooms {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  position: relative;
+}
+
+.roomOptions {
+  z-index: 110;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  width: calc(100% - 22px);
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #d3d3d3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.quickSelect {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.quickSelect h5 {
+  color: #707070;
+}
+
+.quickSelectBtn {
+  background-color: transparent;
+  border: none;
+  color: #487ab8;
+  font-weight: 600;
+}
+
+.quickSelectBtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.addRoom {
+  padding: 15px;
+  background: transparent;
+  color: #487ab8;
+  border: none;
+  margin-top: 10px;
+}
+.addRoom:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.quickSelectMenu {
+  display: grid;
+  gap: 25px;
+  padding-top: 15px;
+}
+
+.quickSelectMenu h5 {
+  color: grey;
+}
+
+.quickSelectMenu h4 {
+  cursor: pointer;
+}

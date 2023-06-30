@@ -1,0 +1,57 @@
+.roomOptionsList {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  padding: 30px 5px;
+  border-bottom: 1px dashed #a8c8f0;
+}
+
+.roomHead {
+  grid-column: 1 / 2;
+  color: #487ab8;
+}
+
+.roomDel {
+  grid-column: 2 / 3;
+  background-color: transparent;
+  border: none;
+  color: #487ab8;
+  cursor: pointer;
+}
+
+.roomEdit {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  gap: 2px;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+h3 span {
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.roomEdit button {
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  width: 35px;
+  height: 35px;
+  place-self: center;
+}
+
+.roomEdit button:hover {
+  border: 1px solid #487ab8;
+}
+
+.roomEdit h3 {
+  color: #4d4d4d;
+  font-weight: 500;
+}
+
+.roomEditDisplay {
+  place-self: center;
+}
