@@ -1,10 +1,9 @@
-import { useContext, useRef } from 'react';
+import { useContext } from 'react';
 import classes from './Rooms.module.css';
 import RoomDetailsList from './RoomDetailsList';
 import DataContext from '../../../store/data-context';
 
 const Rooms = () => {
-  const inputFocus = useRef(null);
   const dataCTX = useContext(DataContext);
 
   const propagationHandle = (e) => {
@@ -44,7 +43,6 @@ const Rooms = () => {
               }`
             : ''
         }`}
-        ref={inputFocus}
       ></input>
 
       {dataCTX.roomEditorVisible && (
