@@ -14,6 +14,7 @@ const DataContext = React.createContext({
   addAdult: (id) => {},
   removeAdult: (id) => {},
   addChild: (id) => {},
+  removeChild: (id) => {},
   closeActivities: () => {},
   showQuickOptions: () => {},
 });
