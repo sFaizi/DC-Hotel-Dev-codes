@@ -11,6 +11,7 @@ const Booking = () => {
         className={classes.hotelSearch}
       ></input>
 
+      {/* example */}
       <Calender />
 
       <Rooms />
